@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Fl0KOFs~f=9uu]d8bV7o">mySprite</variable><variable type="KIND_SpriteKind" id="~w5FjXa)eQMp-[6,/.N$">Player</variable><variable type="KIND_SpriteKind" id="v%^D!F59g9#COnlbAFRZ">Projectile</variable><variable type="KIND_SpriteKind" id="MQ1l-9x?-2krHZ$By(cR">Food</variable><variable type="KIND_SpriteKind" id="1_y^c*4NaQEj%VV1bKex">Enemy</variable></variables><block type="pxt-on-start" id="W~19X=;({4rqKrWP+j6E" x="0" y="0"><statement name="HANDLER"><block type="set_current_tilemap" id="wb4J]AwQ2G|@]eEY2|Bg"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="$U6i~A_*uQ6nM[W6RIX}"><field name="tilemap">tilemap`level2`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level2"}}</data></shadow></value><next><block type="variables_set" id="eGf~BXfrbiEiAw;dF=l2"><field name="VAR" id="Fl0KOFs~f=9uu]d8bV7o">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="WeBUdva/^FoE2)Zb*?vT"><value name="img"><shadow type="screen_image_picker" id="fv*M1nlDEB}$(,AyXhzJ"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . 2 2 . . . . . . . . 
+. . . . . 8 8 8 8 . . . . . . . 
+. . . . . 8 8 8 8 . . . . . . . 
+. . 1 f 1 8 8 8 8 1 f 1 . . . . 
+. . 1 1 1 8 8 8 8 1 1 1 . . . . 
+. . 1 1 1 8 8 8 8 1 1 1 . . . . 
+. . . . . 8 8 8 8 . . . . . . . 
+. . . . . 8 8 8 8 . . . . . . . 
+. . . . . 8 8 8 8 . . . . . . . 
+. . . . . 8 8 8 8 . . . . . . . 
+. . . . . 8 8 8 8 . . . . . . . 
+. . . . . 8 8 8 8 . . . . . . . 
+. . . . . 8 8 8 8 . . . . . . . 
+. . . . . 8 8 8 8 . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"fv*M1nlDEB}$(,AyXhzJ"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="hn/Cd1?)A~FvG-UWcxer"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block></xml>
